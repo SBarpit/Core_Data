@@ -7,68 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F58365E023BA053300741822 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58365DF23BA053300741822 /* AppDelegate.swift */; };
-		F58365E223BA053300741822 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58365E123BA053300741822 /* SceneDelegate.swift */; };
-		F58365E523BA053300741822 /* CoreDataCURD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F58365E323BA053300741822 /* CoreDataCURD.xcdatamodeld */; };
-		F58365E723BA053300741822 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58365E623BA053300741822 /* ContentView.swift */; };
-		F58365E923BA053500741822 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F58365E823BA053500741822 /* Assets.xcassets */; };
-		F58365EC23BA053500741822 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F58365EB23BA053500741822 /* Preview Assets.xcassets */; };
-		F58365EF23BA053500741822 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F58365ED23BA053500741822 /* LaunchScreen.storyboard */; };
-		F58365FA23BA053500741822 /* CoreDataCURDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58365F923BA053500741822 /* CoreDataCURDTests.swift */; };
-		F583660523BA053500741822 /* CoreDataCURDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F583660423BA053500741822 /* CoreDataCURDUITests.swift */; };
+		F583665E23BA06A800741822 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F583665D23BA06A800741822 /* AppDelegate.swift */; };
+		F583666023BA06A800741822 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F583665F23BA06A800741822 /* SceneDelegate.swift */; };
+		F583666223BA06A800741822 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F583666123BA06A800741822 /* ViewController.swift */; };
+		F583666523BA06A800741822 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F583666323BA06A800741822 /* Main.storyboard */; };
+		F583666823BA06A800741822 /* CoreDataCURD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F583666623BA06A800741822 /* CoreDataCURD.xcdatamodeld */; };
+		F583666A23BA06AB00741822 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F583666923BA06AB00741822 /* Assets.xcassets */; };
+		F583666D23BA06AB00741822 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F583666B23BA06AB00741822 /* LaunchScreen.storyboard */; };
+		F583667823BA06AC00741822 /* CoreDataCURDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F583667723BA06AC00741822 /* CoreDataCURDTests.swift */; };
+		F583668323BA06AC00741822 /* CoreDataCURDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F583668223BA06AC00741822 /* CoreDataCURDUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F58365F623BA053500741822 /* PBXContainerItemProxy */ = {
+		F583667423BA06AC00741822 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F58365D423BA053300741822 /* Project object */;
+			containerPortal = F583665223BA06A800741822 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F58365DB23BA053300741822;
+			remoteGlobalIDString = F583665923BA06A800741822;
 			remoteInfo = CoreDataCURD;
 		};
-		F583660123BA053500741822 /* PBXContainerItemProxy */ = {
+		F583667F23BA06AC00741822 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F58365D423BA053300741822 /* Project object */;
+			containerPortal = F583665223BA06A800741822 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F58365DB23BA053300741822;
+			remoteGlobalIDString = F583665923BA06A800741822;
 			remoteInfo = CoreDataCURD;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F58365DC23BA053300741822 /* CoreDataCURD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataCURD.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F58365DF23BA053300741822 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F58365E123BA053300741822 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F58365E423BA053300741822 /* CoreDataCURD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataCURD.xcdatamodel; sourceTree = "<group>"; };
-		F58365E623BA053300741822 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		F58365E823BA053500741822 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F58365EB23BA053500741822 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F58365EE23BA053500741822 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F58365F023BA053500741822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F58365F523BA053500741822 /* CoreDataCURDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataCURDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F58365F923BA053500741822 /* CoreDataCURDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataCURDTests.swift; sourceTree = "<group>"; };
-		F58365FB23BA053500741822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F583660023BA053500741822 /* CoreDataCURDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataCURDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F583660423BA053500741822 /* CoreDataCURDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataCURDUITests.swift; sourceTree = "<group>"; };
-		F583660623BA053500741822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F583665A23BA06A800741822 /* CoreDataCURD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataCURD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F583665D23BA06A800741822 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F583665F23BA06A800741822 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F583666123BA06A800741822 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F583666423BA06A800741822 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F583666723BA06A800741822 /* CoreDataCURD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataCURD.xcdatamodel; sourceTree = "<group>"; };
+		F583666923BA06AB00741822 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F583666C23BA06AB00741822 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F583666E23BA06AB00741822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F583667323BA06AC00741822 /* CoreDataCURDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataCURDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F583667723BA06AC00741822 /* CoreDataCURDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataCURDTests.swift; sourceTree = "<group>"; };
+		F583667923BA06AC00741822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F583667E23BA06AC00741822 /* CoreDataCURDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataCURDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F583668223BA06AC00741822 /* CoreDataCURDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataCURDUITests.swift; sourceTree = "<group>"; };
+		F583668423BA06AC00741822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F58365D923BA053300741822 /* Frameworks */ = {
+		F583665723BA06A800741822 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F58365F223BA053500741822 /* Frameworks */ = {
+		F583667023BA06AC00741822 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F58365FD23BA053500741822 /* Frameworks */ = {
+		F583667B23BA06AC00741822 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,63 +78,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F58365D323BA053300741822 = {
+		F583665123BA06A800741822 = {
 			isa = PBXGroup;
 			children = (
-				F58365DE23BA053300741822 /* CoreDataCURD */,
-				F58365F823BA053500741822 /* CoreDataCURDTests */,
-				F583660323BA053500741822 /* CoreDataCURDUITests */,
-				F58365DD23BA053300741822 /* Products */,
+				F583665C23BA06A800741822 /* CoreDataCURD */,
+				F583667623BA06AC00741822 /* CoreDataCURDTests */,
+				F583668123BA06AC00741822 /* CoreDataCURDUITests */,
+				F583665B23BA06A800741822 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F58365DD23BA053300741822 /* Products */ = {
+		F583665B23BA06A800741822 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F58365DC23BA053300741822 /* CoreDataCURD.app */,
-				F58365F523BA053500741822 /* CoreDataCURDTests.xctest */,
-				F583660023BA053500741822 /* CoreDataCURDUITests.xctest */,
+				F583665A23BA06A800741822 /* CoreDataCURD.app */,
+				F583667323BA06AC00741822 /* CoreDataCURDTests.xctest */,
+				F583667E23BA06AC00741822 /* CoreDataCURDUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F58365DE23BA053300741822 /* CoreDataCURD */ = {
+		F583665C23BA06A800741822 /* CoreDataCURD */ = {
 			isa = PBXGroup;
 			children = (
-				F58365DF23BA053300741822 /* AppDelegate.swift */,
-				F58365E123BA053300741822 /* SceneDelegate.swift */,
-				F58365E623BA053300741822 /* ContentView.swift */,
-				F58365E823BA053500741822 /* Assets.xcassets */,
-				F58365ED23BA053500741822 /* LaunchScreen.storyboard */,
-				F58365F023BA053500741822 /* Info.plist */,
-				F58365E323BA053300741822 /* CoreDataCURD.xcdatamodeld */,
-				F58365EA23BA053500741822 /* Preview Content */,
+				F583665D23BA06A800741822 /* AppDelegate.swift */,
+				F583665F23BA06A800741822 /* SceneDelegate.swift */,
+				F583666123BA06A800741822 /* ViewController.swift */,
+				F583666323BA06A800741822 /* Main.storyboard */,
+				F583666923BA06AB00741822 /* Assets.xcassets */,
+				F583666B23BA06AB00741822 /* LaunchScreen.storyboard */,
+				F583666E23BA06AB00741822 /* Info.plist */,
+				F583666623BA06A800741822 /* CoreDataCURD.xcdatamodeld */,
 			);
 			path = CoreDataCURD;
 			sourceTree = "<group>";
 		};
-		F58365EA23BA053500741822 /* Preview Content */ = {
+		F583667623BA06AC00741822 /* CoreDataCURDTests */ = {
 			isa = PBXGroup;
 			children = (
-				F58365EB23BA053500741822 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		F58365F823BA053500741822 /* CoreDataCURDTests */ = {
-			isa = PBXGroup;
-			children = (
-				F58365F923BA053500741822 /* CoreDataCURDTests.swift */,
-				F58365FB23BA053500741822 /* Info.plist */,
+				F583667723BA06AC00741822 /* CoreDataCURDTests.swift */,
+				F583667923BA06AC00741822 /* Info.plist */,
 			);
 			path = CoreDataCURDTests;
 			sourceTree = "<group>";
 		};
-		F583660323BA053500741822 /* CoreDataCURDUITests */ = {
+		F583668123BA06AC00741822 /* CoreDataCURDUITests */ = {
 			isa = PBXGroup;
 			children = (
-				F583660423BA053500741822 /* CoreDataCURDUITests.swift */,
-				F583660623BA053500741822 /* Info.plist */,
+				F583668223BA06AC00741822 /* CoreDataCURDUITests.swift */,
+				F583668423BA06AC00741822 /* Info.plist */,
 			);
 			path = CoreDataCURDUITests;
 			sourceTree = "<group>";
@@ -142,13 +134,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F58365DB23BA053300741822 /* CoreDataCURD */ = {
+		F583665923BA06A800741822 /* CoreDataCURD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F583660923BA053500741822 /* Build configuration list for PBXNativeTarget "CoreDataCURD" */;
+			buildConfigurationList = F583668723BA06AC00741822 /* Build configuration list for PBXNativeTarget "CoreDataCURD" */;
 			buildPhases = (
-				F58365D823BA053300741822 /* Sources */,
-				F58365D923BA053300741822 /* Frameworks */,
-				F58365DA23BA053300741822 /* Resources */,
+				F583665623BA06A800741822 /* Sources */,
+				F583665723BA06A800741822 /* Frameworks */,
+				F583665823BA06A800741822 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -156,69 +148,69 @@
 			);
 			name = CoreDataCURD;
 			productName = CoreDataCURD;
-			productReference = F58365DC23BA053300741822 /* CoreDataCURD.app */;
+			productReference = F583665A23BA06A800741822 /* CoreDataCURD.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F58365F423BA053500741822 /* CoreDataCURDTests */ = {
+		F583667223BA06AC00741822 /* CoreDataCURDTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F583660C23BA053500741822 /* Build configuration list for PBXNativeTarget "CoreDataCURDTests" */;
+			buildConfigurationList = F583668A23BA06AC00741822 /* Build configuration list for PBXNativeTarget "CoreDataCURDTests" */;
 			buildPhases = (
-				F58365F123BA053500741822 /* Sources */,
-				F58365F223BA053500741822 /* Frameworks */,
-				F58365F323BA053500741822 /* Resources */,
+				F583666F23BA06AC00741822 /* Sources */,
+				F583667023BA06AC00741822 /* Frameworks */,
+				F583667123BA06AC00741822 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F58365F723BA053500741822 /* PBXTargetDependency */,
+				F583667523BA06AC00741822 /* PBXTargetDependency */,
 			);
 			name = CoreDataCURDTests;
 			productName = CoreDataCURDTests;
-			productReference = F58365F523BA053500741822 /* CoreDataCURDTests.xctest */;
+			productReference = F583667323BA06AC00741822 /* CoreDataCURDTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F58365FF23BA053500741822 /* CoreDataCURDUITests */ = {
+		F583667D23BA06AC00741822 /* CoreDataCURDUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F583660F23BA053500741822 /* Build configuration list for PBXNativeTarget "CoreDataCURDUITests" */;
+			buildConfigurationList = F583668D23BA06AC00741822 /* Build configuration list for PBXNativeTarget "CoreDataCURDUITests" */;
 			buildPhases = (
-				F58365FC23BA053500741822 /* Sources */,
-				F58365FD23BA053500741822 /* Frameworks */,
-				F58365FE23BA053500741822 /* Resources */,
+				F583667A23BA06AC00741822 /* Sources */,
+				F583667B23BA06AC00741822 /* Frameworks */,
+				F583667C23BA06AC00741822 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F583660223BA053500741822 /* PBXTargetDependency */,
+				F583668023BA06AC00741822 /* PBXTargetDependency */,
 			);
 			name = CoreDataCURDUITests;
 			productName = CoreDataCURDUITests;
-			productReference = F583660023BA053500741822 /* CoreDataCURDUITests.xctest */;
+			productReference = F583667E23BA06AC00741822 /* CoreDataCURDUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F58365D423BA053300741822 /* Project object */ = {
+		F583665223BA06A800741822 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Arpit Srivastava";
 				TargetAttributes = {
-					F58365DB23BA053300741822 = {
+					F583665923BA06A800741822 = {
 						CreatedOnToolsVersion = 11.3;
 					};
-					F58365F423BA053500741822 = {
+					F583667223BA06AC00741822 = {
 						CreatedOnToolsVersion = 11.3;
-						TestTargetID = F58365DB23BA053300741822;
+						TestTargetID = F583665923BA06A800741822;
 					};
-					F58365FF23BA053500741822 = {
+					F583667D23BA06AC00741822 = {
 						CreatedOnToolsVersion = 11.3;
-						TestTargetID = F58365DB23BA053300741822;
+						TestTargetID = F583665923BA06A800741822;
 					};
 				};
 			};
-			buildConfigurationList = F58365D723BA053300741822 /* Build configuration list for PBXProject "CoreDataCURD" */;
+			buildConfigurationList = F583665523BA06A800741822 /* Build configuration list for PBXProject "CoreDataCURD" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -226,37 +218,37 @@
 				en,
 				Base,
 			);
-			mainGroup = F58365D323BA053300741822;
-			productRefGroup = F58365DD23BA053300741822 /* Products */;
+			mainGroup = F583665123BA06A800741822;
+			productRefGroup = F583665B23BA06A800741822 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F58365DB23BA053300741822 /* CoreDataCURD */,
-				F58365F423BA053500741822 /* CoreDataCURDTests */,
-				F58365FF23BA053500741822 /* CoreDataCURDUITests */,
+				F583665923BA06A800741822 /* CoreDataCURD */,
+				F583667223BA06AC00741822 /* CoreDataCURDTests */,
+				F583667D23BA06AC00741822 /* CoreDataCURDUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F58365DA23BA053300741822 /* Resources */ = {
+		F583665823BA06A800741822 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F58365EF23BA053500741822 /* LaunchScreen.storyboard in Resources */,
-				F58365EC23BA053500741822 /* Preview Assets.xcassets in Resources */,
-				F58365E923BA053500741822 /* Assets.xcassets in Resources */,
+				F583666D23BA06AB00741822 /* LaunchScreen.storyboard in Resources */,
+				F583666A23BA06AB00741822 /* Assets.xcassets in Resources */,
+				F583666523BA06A800741822 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F58365F323BA053500741822 /* Resources */ = {
+		F583667123BA06AC00741822 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F58365FE23BA053500741822 /* Resources */ = {
+		F583667C23BA06AC00741822 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -266,53 +258,61 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F58365D823BA053300741822 /* Sources */ = {
+		F583665623BA06A800741822 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F58365E523BA053300741822 /* CoreDataCURD.xcdatamodeld in Sources */,
-				F58365E023BA053300741822 /* AppDelegate.swift in Sources */,
-				F58365E723BA053300741822 /* ContentView.swift in Sources */,
-				F58365E223BA053300741822 /* SceneDelegate.swift in Sources */,
+				F583666223BA06A800741822 /* ViewController.swift in Sources */,
+				F583665E23BA06A800741822 /* AppDelegate.swift in Sources */,
+				F583666823BA06A800741822 /* CoreDataCURD.xcdatamodeld in Sources */,
+				F583666023BA06A800741822 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F58365F123BA053500741822 /* Sources */ = {
+		F583666F23BA06AC00741822 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F58365FA23BA053500741822 /* CoreDataCURDTests.swift in Sources */,
+				F583667823BA06AC00741822 /* CoreDataCURDTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F58365FC23BA053500741822 /* Sources */ = {
+		F583667A23BA06AC00741822 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F583660523BA053500741822 /* CoreDataCURDUITests.swift in Sources */,
+				F583668323BA06AC00741822 /* CoreDataCURDUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F58365F723BA053500741822 /* PBXTargetDependency */ = {
+		F583667523BA06AC00741822 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F58365DB23BA053300741822 /* CoreDataCURD */;
-			targetProxy = F58365F623BA053500741822 /* PBXContainerItemProxy */;
+			target = F583665923BA06A800741822 /* CoreDataCURD */;
+			targetProxy = F583667423BA06AC00741822 /* PBXContainerItemProxy */;
 		};
-		F583660223BA053500741822 /* PBXTargetDependency */ = {
+		F583668023BA06AC00741822 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F58365DB23BA053300741822 /* CoreDataCURD */;
-			targetProxy = F583660123BA053500741822 /* PBXContainerItemProxy */;
+			target = F583665923BA06A800741822 /* CoreDataCURD */;
+			targetProxy = F583667F23BA06AC00741822 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F58365ED23BA053500741822 /* LaunchScreen.storyboard */ = {
+		F583666323BA06A800741822 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F58365EE23BA053500741822 /* Base */,
+				F583666423BA06A800741822 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F583666B23BA06AB00741822 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F583666C23BA06AB00741822 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -320,7 +320,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F583660723BA053500741822 /* Debug */ = {
+		F583668523BA06AC00741822 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -380,7 +380,7 @@
 			};
 			name = Debug;
 		};
-		F583660823BA053500741822 /* Release */ = {
+		F583668623BA06AC00741822 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -434,13 +434,11 @@
 			};
 			name = Release;
 		};
-		F583660A23BA053500741822 /* Debug */ = {
+		F583668823BA06AC00741822 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"CoreDataCURD/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CoreDataCURD/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -453,13 +451,11 @@
 			};
 			name = Debug;
 		};
-		F583660B23BA053500741822 /* Release */ = {
+		F583668923BA06AC00741822 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"CoreDataCURD/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CoreDataCURD/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -472,7 +468,7 @@
 			};
 			name = Release;
 		};
-		F583660D23BA053500741822 /* Debug */ = {
+		F583668B23BA06AC00741822 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -493,7 +489,7 @@
 			};
 			name = Debug;
 		};
-		F583660E23BA053500741822 /* Release */ = {
+		F583668C23BA06AC00741822 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -514,7 +510,7 @@
 			};
 			name = Release;
 		};
-		F583661023BA053500741822 /* Debug */ = {
+		F583668E23BA06AC00741822 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -533,7 +529,7 @@
 			};
 			name = Debug;
 		};
-		F583661123BA053500741822 /* Release */ = {
+		F583668F23BA06AC00741822 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -555,38 +551,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F58365D723BA053300741822 /* Build configuration list for PBXProject "CoreDataCURD" */ = {
+		F583665523BA06A800741822 /* Build configuration list for PBXProject "CoreDataCURD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F583660723BA053500741822 /* Debug */,
-				F583660823BA053500741822 /* Release */,
+				F583668523BA06AC00741822 /* Debug */,
+				F583668623BA06AC00741822 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F583660923BA053500741822 /* Build configuration list for PBXNativeTarget "CoreDataCURD" */ = {
+		F583668723BA06AC00741822 /* Build configuration list for PBXNativeTarget "CoreDataCURD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F583660A23BA053500741822 /* Debug */,
-				F583660B23BA053500741822 /* Release */,
+				F583668823BA06AC00741822 /* Debug */,
+				F583668923BA06AC00741822 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F583660C23BA053500741822 /* Build configuration list for PBXNativeTarget "CoreDataCURDTests" */ = {
+		F583668A23BA06AC00741822 /* Build configuration list for PBXNativeTarget "CoreDataCURDTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F583660D23BA053500741822 /* Debug */,
-				F583660E23BA053500741822 /* Release */,
+				F583668B23BA06AC00741822 /* Debug */,
+				F583668C23BA06AC00741822 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F583660F23BA053500741822 /* Build configuration list for PBXNativeTarget "CoreDataCURDUITests" */ = {
+		F583668D23BA06AC00741822 /* Build configuration list for PBXNativeTarget "CoreDataCURDUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F583661023BA053500741822 /* Debug */,
-				F583661123BA053500741822 /* Release */,
+				F583668E23BA06AC00741822 /* Debug */,
+				F583668F23BA06AC00741822 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -594,17 +590,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		F58365E323BA053300741822 /* CoreDataCURD.xcdatamodeld */ = {
+		F583666623BA06A800741822 /* CoreDataCURD.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				F58365E423BA053300741822 /* CoreDataCURD.xcdatamodel */,
+				F583666723BA06A800741822 /* CoreDataCURD.xcdatamodel */,
 			);
-			currentVersion = F58365E423BA053300741822 /* CoreDataCURD.xcdatamodel */;
+			currentVersion = F583666723BA06A800741822 /* CoreDataCURD.xcdatamodel */;
 			path = CoreDataCURD.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = F58365D423BA053300741822 /* Project object */;
+	rootObject = F583665223BA06A800741822 /* Project object */;
 }
